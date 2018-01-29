@@ -22,7 +22,7 @@
 						<div class="col-md-12 col-sm-12 col-xs-12">
 							<div class="thumbnail bord-rad">
 								<div class="col-md-12" style="padding:0px;margin:0px;">
-									<textarea class="form-control"  style="height:100px;" placeholder="Write something here..."></textarea>
+									<textarea class="form-control"  style="resize:none;height:150px;" placeholder="Write something here..."></textarea>
 								</div>
 								<div class="col-md-12" style="padding:0px;">
 									<input class="btn btn-default" type="button" value="Post Status">
@@ -59,9 +59,6 @@
 										<div class="overlay">
 											<h3 style="color:#fff;font-weight:bold;margin:5px;">Himadri Majumder</h3>
 										</div>
-										
-										
-
 									</div>
 									<div class="col-md-12 center" style="height:40px;padding:10px;">
 										<a href=""><i class="fa fa-comments size_icon" aria-hidden="true" style="color:#ffcc33"></i> Send Message </a>

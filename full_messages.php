@@ -20,7 +20,7 @@
 			<div class="col-md-12">
 					<div class="row">
 						<?php
-							for($i=1; $i <= 3; $i++){
+							for($i=1; $i <= 2; $i++){
 						?>
 						<div class="col-md-12 col-sm-12 col-xs-12">
 							<div class="thumbnail bord-rad">
@@ -29,7 +29,7 @@
 								</div>
 								<div class="col-md-8" style="padding:0px;margin:0px;">
 									<label>Himadri Majumder</label>
-									<p  style="height:100%;">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+									<p  style="height:100px;overflow-y:scroll;">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
 								</div>
 								<div class="col-md-2" style="padding:0px;text-align:right">
 									<label><?php echo date("d M y");?></label>
@@ -42,7 +42,7 @@
 						 }
 						?>
 					<div class="col-md-12 col-sm-12 col-xs-12">
-						<textarea class="form-control" placeholder="Enter your message here" style="height:100px;"></textarea>
+						<textarea class="form-control image_style" placeholder="Enter your message here" style="resize:none;height:150px;"></textarea>
 					</div>
 				</div>
 			</div>

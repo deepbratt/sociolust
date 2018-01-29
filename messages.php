@@ -34,7 +34,7 @@
 									</div>
 									<div class="col-md-8" style="padding:0px;margin:0px;">
 										 <a href="full_messages.php"><label>Himadri Majumder</label></a>
-										<p  style="height:50%;"><?php echo substr("Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",0,80)?>...</p>
+										<p  style="height:50px;"><?php echo substr("Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",0,80)?>...</p>
 									</div>
 									<div class="col-md-2" style="padding:0px;text-align:right">
 										<label><?php echo date("d M y");?></label>
