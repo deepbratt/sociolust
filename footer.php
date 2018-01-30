@@ -30,7 +30,7 @@
 		 </div>
 		
 		 <div class="col-md-3 col-sm-3 col-xs-3 center item_cont">
-			<a href="" class="icon-item">
+			<a href="notification.php" class="icon-item">
 				<div class="col-md-12 col-sm-12 col-xs-12"><i class="fa fa-bell size_icon" aria-hidden="true"></i></div>
 				<div class="col-md-12 col-sm-12 col-xs-12">Notifications</div>
 			</a>

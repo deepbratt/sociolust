@@ -18,20 +18,20 @@
   <div class="container contpad">
 	   <div class="row">
 			<div class="col-md-12">
-					<div class="row">
+					<div class="row" style="margin-top:25px;height:500px;overflow-y:scroll;">
 						<?php
-							for($i=1; $i <= 2; $i++){
+							for($i=1; $i <= 4; $i++){
 						?>
 						<div class="col-md-12 col-sm-12 col-xs-12">
-							<div class="thumbnail bord-rad">
-								<div class="col-md-2" style="padding:0px;margin:0px;">
-									<img alt="Bootstrap Thumbnail First" src="uploads/26219167_1580311485385521_8938737836320191600_n.jpg" style="height:100px;border-radius:50%;padding:0px;">
+							<div class="thumbnail bord-rad" >
+								<div class="col-md-2 col-sm-2 col-xs-2" style="padding:0px;margin:0px;">
+									<img alt="Bootstrap Thumbnail First" src="uploads/26219167_1580311485385521_8938737836320191600_n.jpg" style="height:70px;border-radius:50%;padding:0px;margin:10px;">
 								</div>
-								<div class="col-md-8" style="padding:0px;margin:0px;">
+								<div class="col-md-8 col-sm-8 col-xs-8" style="padding:0px;margin:0px;">
 									<label>Himadri Majumder</label>
-									<p  style="height:100px;overflow-y:scroll;">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+									<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
 								</div>
-								<div class="col-md-2" style="padding:0px;text-align:right">
+								<div class="col-md-2 col-sm-2 col-xs-2" style="padding:0px;text-align:right">
 									<label><?php echo date("d M y");?></label>
 								</div>
 								

@@ -19,24 +19,26 @@
 	   <div class="row">
 			<div class="col-md-12">
 					<div class="row" style="margin-top:25px;">
+						<div class="col-md-12 col-sm-12 col-xs-12">
+							<label>Notifications</label>
+						</div>
 						<?php
 						for($i=1; $i < 10; $i++){
 						?>
 						
-							<div class="col-md-3 col-sm-6 col-xs-12 ">
+							<div class="col-md-12 col-sm-12 col-xs-12">
 								<div class="thumbnail bord-rad">
-									<div class="col-md-12" style="padding:0px;margin:0px;">
-										<img class="image_style" src="uploads/26219167_1580311485385521_8938737836320191600_n.jpg" style="width:100%;">
-										<div class="overlay">
-											<h3 style="color:#fff;font-weight:bold;margin:5px;">Himadri Majumder</h3>
-										</div>
-										
-										
-
+								 
+									<div class="col-md-2 col-sm-2 col-xs-2" style="padding:0px;margin:0px;">
+										<img alt="Bootstrap Thumbnail First" src="images/port_logo.png" style="height:50px;border-radius:50%;padding:5px;">
 									</div>
-									<div class="col-md-12 center" style="height:40px;padding:10px;">
-										<a href=""><i class="fa fa-comments size_icon" aria-hidden="true" style="color:#ffcc33"></i> Send Message </a>
+									<div class="col-md-8 col-sm-8 col-xs-8" style="padding:0px;margin:0px;">
+										 <a href="full_notification.php"><label>Check out the app of the day</label></a>
 									</div>
+									<div class="col-md-2 col-sm-2 col-xs-2" style="padding:0px;">
+										<label><?php echo date("d M y");?></label>
+									</div>
+								  
 									<div class="clearfix"></div>
 								</div>
 							</div>
