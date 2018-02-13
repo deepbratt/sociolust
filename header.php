@@ -1,30 +1,48 @@
-
-<nav class="navbar navbar-fixed-top headertp">
-  <div class="container">
-	<div class="col-md-8 col-sm-8 col-xs-8">
-	  <a class="navbar-brand" href="timeline.php" style="padding:7px;margin:0px;"><img src="images/newlogo.png" class="logo img-responsive"></a>
+<nav class="navbar navbar-default nav-sec navbar-fixed-top">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#" title="AppLora"><img src="images/newlogo.png" alt="Applora Logo" style="width:250px;"></a>
+		</div>
+		<!-- / navbar-header -->
+		<div class="navbar-collapse collapse">
+			<ul class="nav navbar-nav navbar-right">
+				<li class="active"><a href="#home"><span>Home</span></a></li>
+				<li><a href="#about"><span>Features</span></a></li>
+				<li><a href="#screenshots"><span>Screenshot</span></a></li>
+				<li><a href="#testimonials"><span>Testimonials</span></a></li>
+				<li><a href="#pricing-table"><span>Pricing</span></a></li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span>Blog</span> <span class="dropdown-icon"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="#blog"><span>Blog</span></a></li>
+						<li><a href="blog-2column-style1.html"><span>Blog 2 Column Style 1</span></a></li>
+						<li><a href="blog-2column-style2.html"><span>Blog 2 Column Style 2</span></a></li>
+						<li><a href="blog-3column-style1.html"><span>Blog 3 Column Style 1</span></a></li>
+						<li><a href="blog-3column-style2.html"><span>Blog 3 Column Style 2</span></a></li>
+						<li><a href="blog-fullwidth-style1.html"><span>Blog Full Width Style 1</span></a></li>
+						<li><a href="blog-fullwidth-style2.html"><span>Blog Full Width Style 2</span></a></li>
+						<li><a href="blog-left-sidebar-style1.html"><span>Blog Left Sidebar Style 1</span></a></li>
+						<li><a href="blog-left-sidebar-style2.html"><span>Blog Left Sidebar Style 2</span></a></li>
+						<li><a href="blog-right-sidebar-style1.html"><span>Blog Right Sidebar Style 1</span></a></li>
+						<li><a href="blog-right-sidebar-style2.html"><span>Blog Right Sidebar Style 2</span></a></li>
+						<li><a href="single-post-fullwidth-style1.html"><span>Single Post Full Width Style 1</span></a></li>
+						<li><a href="single-post-fullwidth-style2.html"><span>Single Post Full Width Style 2</span></a></li>
+						<li><a href="single-post-left-sidebar-style1.html"><span>Single Post Left Sidebar Style 1</span></a></li>
+						<li><a href="single-post-left-sidebar-style2.html"><span>Single Post Left Sidebar Style 2</span></a></li>
+						<li><a href="single-post-right-sidebar-style1.html"><span>Single Post Right Sidebar Style 1</span></a></li>
+						<li><a href="single-post-right-sidebar-style2.html"><span>Single Post Right Sidebar Style 2</span></a></li>
+					</ul>
+				</li>
+				<li><a href="#contact-us"><span>Contact</span></a></li>
+			</ul>
+		</div>
+		<!-- end nav-collapse -->
 	</div>
-
-	 <div class="col-md-4 col-sm-4 col-xs-4" style="text-align:right;">
-		<a href="" class="icon-item">
-		  <div class="col-md-12 col-sm-12 col-xs-12">
-				<div class="col-md-6 col-sm-6 col-xs-6"><a href="profile.php"><img src="uploads/26219167_1580311485385521_8938737836320191600_n.jpg" style="height:50px;border-radius:50%;padding:5px;"></a></div>
-				<div class="dropdown">
-				<a href="javascript:void(0);" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:white;">
-				  <div class="col-md-6 col-sm-6 col-xs-6" style="margin-top:15px;font-size:15px;">Shuvradeb M.  <i class="fa fa-caret-down"></i>
-					<div class="dropdown-menu">
-						<li><a href="profile.php" style="text-align:center;color:red;"><b>My Profile</b></a></li>
-						<li><a href="settings.php" style="text-align:center;color:red;"><b>Settings</b></a></li>
-						<li><a href="javascript:void(0);" style="text-align:center;color:red;"><b>Block List</b></a></li>
-						<li><a href="javascript:void(0);" style="text-align:center;color:red;"><strong>Connection List</strong></a></li>
-						<li role="separator" class="divider"></li>
-						<li><a href="javascript:void(0);" style="text-align:center;color:red;"><strong>Logout</strong></a></li>
-					</div>
-				  </div>
-				</a>
-			</div> 
-		  </div>
-		</a>
-	 </div>
-  </div>
+	<!-- end container -->
 </nav>
